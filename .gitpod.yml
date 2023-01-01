@@ -1,1 +1,6 @@
 image: gitpod/workspace-full-vnc
+tasks:
+  - init: pip install pillow
+ports:
+  - port: 6080
+    onOpen: open-browser
