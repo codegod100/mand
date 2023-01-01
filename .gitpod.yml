@@ -1,6 +1,6 @@
 image: gitpod/workspace-full-vnc
 tasks:
-  - init: pip install pillow
+  - before: pip install pillow
   - command: python mand.py
 ports:
   - port: 6080
